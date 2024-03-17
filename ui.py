@@ -2,8 +2,6 @@
 
 from enum import Enum
 from flask import Flask, render_template
-from database import get_players, add_player
-from scraping import scrape_players
 from datetime import datetime
 
 app = Flask(__name__)
@@ -176,6 +174,7 @@ def scrape():
     positions = ["QB", "RB", "WR", "TE", "OT", "IOL", "IDL", "Edge", "LB", "CB", "SAF"]
     for position in positions:
         page = 1
+        '''
         while True:
             player_data = scrape_players(position, page)
             if not player_data:
@@ -184,7 +183,7 @@ def scrape():
                 add_player(*data)
             page += 1
     return "Scraping complete!"
-
+    '''
 
 if __name__ == '__main__':
     app.run(debug=True)

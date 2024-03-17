@@ -1,24 +1,9 @@
 # scraping.py
 
-from enum import Enum
+from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 from database import add_player, player_data_exists
-from datetime import datetime
-
-
-class Grade(Enum):
-    A = 5
-    B = 4
-    C = 3
-    D = 2
-    F = 1
-
-
-def calculate_age(birth_date):
-    today = datetime.today()
-    age = today.year - birth_date.year - ((today.month, today.day) < (birth_date.month, birth_date.day))
-    return age
 
 
 def scrape_players(position, page):
@@ -26,12 +11,13 @@ def scrape_players(position, page):
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
     player_data = []
-    for player in soup.find_all('div', class_='player'):
-        name = player.find('div', class_='name').text.strip()
-        college = player.find('div', class_='college').text.strip()
-        height = player.find('div', class_='height').text.strip()
-        weight = player.find('div', class_='weight').text.strip()
-        birth_date = datetime.strptime(player.find('div', class_='dob').text.strip(), "%m/%d/%Y")
+    for player in soup.select('tr[data-href]'):
+        name = player.select_one('.team-meta__name .firstName').text.strip() + ' ' + player.select_one('.team-meta__name .lastName').text.strip()
+        college = player.select_one('.team-result__score img')['alt'].split()[0]
+        height = player.select_one('.team-result__status:nth-of-type(5)').text.strip()
+        weight = player.select_one('.team-result__status:nth-of-type(6)').text.strip()
+        dob_str = player.select_one('.team-result__status:nth-of-type(8)').text.strip()
+        birth_date = datetime.strptime(dob_str, "%m/%d/%Y")
         player_data.append((name, college, height, weight, birth_date, position))
     return player_data
 
@@ -45,13 +31,14 @@ def scrape_and_store_players():
                 url = f"https://www.nfldraftbuzz.com/positions/{position}/{page}/2024"
                 response = requests.get(url)
                 soup = BeautifulSoup(response.text, 'html.parser')
-                if not soup.find_all('div', class_='player'):
+                if not soup.select('tr[data-href]'):
                     break
-                for player in soup.find_all('div', class_='player'):
-                    name = player.find('div', class_='name').text.strip()
-                    college = player.find('div', class_='college').text.strip()
-                    height = player.find('div', class_='height').text.strip()
-                    weight = player.find('div', class_='weight').text.strip()
-                    birth_date = datetime.strptime(player.find('div', class_='dob').text.strip(), "%m/%d/%Y")
+                for player in soup.select('tr[data-href]'):
+                    name = player.select_one('.team-meta__name .firstName').text.strip() + ' ' + player.select_one('.team-meta__name .lastName').text.strip()
+                    college = player.select_one('.team-result__score img')['alt'].split()[0]
+                    height = player.select_one('.team-result__status:nth-of-type(5)').text.strip()
+                    weight = player.select_one('.team-result__status:nth-of-type(6)').text.strip()
+                    dob_str = player.select_one('.team-result__status:nth-of-type(8)').text.strip()
+                    birth_date = datetime.strptime(dob_str, "%m/%d/%Y")
                     add_player(name, college, height, weight, birth_date, position)
                 page += 1

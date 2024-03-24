@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Draft Big Board</title>
+    <style>
+        /* Add some basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #666;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left; /* Align content to the left */
+        }
+        th {
+            background-color: #f9f9f9; /* Lighter background color for headers */
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Alternate row colors for better readability */
+        }
+        .player-img {
+            max-width: 100px;
+            max-height: 100px;
+            vertical-align: middle;
+        }
+        .player-details {
+            display: flex;
+            align-items: center;
+        }
+        .player-name {
+            font-weight: bold;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        .player-college {
+            font-size: 14px;
+            color: #666;
+        }
+        .center {
+            text-align: center;
+        }
+        .narrow-column {
+            width: 80px; /* Adjust width as needed */
+        }
+        .edit-btn {
+            margin-bottom: 10px;
+        }
+        .edit-mode-msg {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        .scroll-arrows {
+            display: none;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .scroll-arrows.show {
+            display: flex;
+        }
+        .scroll-btn {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quarterbacks</h1>
+    <button id="edit-btn" class="edit-btn" onclick="toggleEditMode()">Toggle Edit Mode</button>
+    <p id="edit-mode-msg" class="edit-mode-msg" style="display: none;">Edit Mode</p>
+    <table id="players-table">
+        <thead>
+            <tr class="header-row">
+                <th>Player</th>
+                <th class="center narrow-column">Ht</th>
+                <th class="center narrow-column">Wt</th>
+                <th class="center narrow-column">Yr</th>
+                <th class="center narrow-column">Arm Strength</th>
+                <th class="center narrow-column">Ball Placement</th>
+                <th class="center narrow-column">Field Processing</th>
+                <th class="center narrow-column">Pocket Presence</th>
+                <th class="center narrow-column">Scrambling</th>
+                <th class="center narrow-column">Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% if players %}
+            {% for player in players %}
+                <tr>
+                    <td>
+                        <div class="player-details">
+                            <img src="{{ player[7] }}" alt="Player Image" class="player-img">
+                            <div>
+                                <div class="player-name">{{ player[1] }}</div>
+                                <div class="player-college">{{ player[2] }}</div>
+                            </div>
+                        </div>
+                    </td>
+                    <td class="center">{{ player[3] }}</td>
+                    <td class="center">{{ player[4] }}</td>
+                    <td class="center">{{ player[5] }}</td>
+                    <td class="center editable" data-value="{{ player[10] }}">A</td>
+                    <td class="center editable" data-value="{{ player[11] }}">A</td>
+                    <td class="center editable" data-value="{{ player[12] }}">A</td>
+                    <td class="center editable" data-value="{{ player[13] }}">A</td>
+                    <td class="center editable" data-value="{{ player[14] }}">A</td>
+                    <td class="center">{{ player[6] }}</td>
+                </tr>
+            {% endfor %}
+        {% else %}
+            <tr>
+                <td colspan="10">No players available</td>
+            </tr>
+        {% endif %}
+        </tbody>
+    </table>
+    <script>
+        function toggleEditMode() {
+            var editBtn = document.getElementById('edit-btn');
+            var editModeMsg = document.getElementById('edit-mode-msg');
+            var editableCells = document.querySelectorAll('.editable');
+
+            if (editBtn.innerText === 'Toggle Edit Mode') {
+                editBtn.innerText = 'Save Changes';
+                editModeMsg.style.display = 'block'; // Show edit mode message
+                // Enable editing for each editable cell
+                editableCells.forEach(function(cell) {
+                    cell.contentEditable = true;
+                });
+                // Show scroll arrows
+                var scrollArrows = document.querySelectorAll('.scroll-arrows');
+                scrollArrows.forEach(function(arrows) {
+                    arrows.classList.add('show');
+                });
+            } else {
+                editBtn.innerText = 'Toggle Edit Mode';
+                editModeMsg.style.display = 'none'; // Hide edit mode message
+                // Disable editing for each editable cell
+                editableCells.forEach(function(cell) {
+                    cell.contentEditable = false;
+                });
+                // Hide scroll arrows
+                var scrollArrows = document.querySelectorAll('.scroll-arrows');
+                scrollArrows.forEach(function(arrows) {
+                    arrows.classList.remove('show');
+                });
+                // Save changes to the database
+                saveChanges();
+            }
+        }
+
+        function cycleValue(element, minValue, maxValue) {
+            var currentValue = element.innerText;
+            var index = values.indexOf(currentValue);
+            var nextIndex = (index + 1) % values.length;
+            element.innerText = values[nextIndex];
+        }
+
+        function saveChanges() {
+            var playerRows = document.querySelectorAll('#players-table tbody tr');
+            var data = [];
+            // Extract data from each row and append to the data array
+            playerRows.forEach(function(row) {
+                var rowData = [];
+                row.querySelectorAll('.editable').forEach(function(cell) {
+                    rowData.push(cell.innerText.trim());
+                });
+                data.push(rowData);
+            });
+            // Send data to the server to save changes
+            console.log('Changes to be saved:', data);
+            // Code to save changes to the server
+        }
+    </script>
+</body>
+</html>

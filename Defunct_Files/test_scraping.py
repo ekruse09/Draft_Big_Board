@@ -1,4 +1,4 @@
-from database import get_players_by_position
+from Defunct_Files.database import get_players_by_position
 from scraping import scrape_and_store_players
 
 if __name__ == '__main__':

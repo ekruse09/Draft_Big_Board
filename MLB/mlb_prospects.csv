@@ -1,0 +1,201 @@
+Rank,First Name,Last Name,Date of Birth,Height,Weight,Position,Bats,Throws,School
+1,Travis,Bazzana,2002-08-28,"6' 0""",199,2B,L,R,Oregon State
+2,Charlie,Condon,2003-04-14,"6' 6""",216,OF/3B,R,R,Georgia
+3,Jac,Caglianone,2003-02-09,"6' 5""",250,1B/LHP,L,L,Florida
+4,Nick,Kurtz,2003-03-12,"6' 5""",240,1B,L,L,Wake Forest
+5,Chase,Burns,2003-01-16,"6' 3""",210,RHP,R,R,Wake Forest
+6,Hagen,Smith,2003-08-19,"6' 3""",225,LHP,L,L,Arkansas
+7,JJ,Wetherholt,2002-09-10,"5' 10""",190,SS/2B,L,R,West Virginia
+8,Braden,Montgomery,2003-04-26,"6' 2""",220,OF,S,R,Texas A&M
+9,Konnor,Griffin,2006-04-24,"6' 4""",215,SS/OF,R,R,High School
+10,Bryce,Rainer,2005-07-03,"6' 3""",195,SS,L,R,High School
+11,Trey,Yesavage,2003-07-28,"6' 4""",225,RHP,R,R,East Carolina
+12,William,Schmidt,2005-10-04,"6' 4""",180,RHP,R,R,High School
+13,Seaver,King,2003-04-25,"6' 0""",195,3B/OF,R,R,Wake Forest
+14,Cam,Smith,2003-02-22,"6' 3""",224,3B,R,R,Florida State
+15,Tommy,White,2003-03-02,"6' 1""",228,3B,R,R,Louisiana State
+16,James,Tibbs,2002-10-01,"6' 0""",201,OF,L,L,Florida State
+17,Cam,Caminiti,2006-08-08,"6' 2""",195,LHP,L,L,High School
+18,Ryan,Sloan,2006-01-29,"6' 5""",220,RHP,R,R,High School
+19,Carson,Benge,2003-01-20,"6' 1""",184,OF,L,R,Oklahoma State
+20,Vance,Honeycutt,2003-05-17,"6' 3""",205,OF,R,R,North Carolina
+21,Brody,Brecht,2002-09-27,"6' 4""",235,RHP,R,R,Iowa
+22,Slade,Caldwell,2006-06-18,"5' 9""",182,OF,L,L,High School
+23,Walker,Janek,2002-09-24,"6' 0""",190,C,R,R,Sam Houston
+24,Malcolm,Moore,2003-07-31,"6' 2""",216,C,L,R,Stanford
+25,Christian,Moore,2002-10-21,"6' 1""",210,2B,R,R,Tennessee
+26,Billy,Amick,2002-11-04,"6' 1""",220,3B,R,R,Tennessee
+27,Theo,Gillen,2005-09-12,"6' 2""",195,SS/2B,L,R,High School
+28,Kash,Mayfield,2005-02-08,"6' 4""",200,LHP,L,L,High School
+29,Dakota,Jordan,2003-05-09,"6' 0""",220,OF,R,R,Mississippi State
+30,Kellon,Lindsey,2005-09-21,"6' 2""",175,SS,R,R,High School
+31,Jurrangelo,Cijntje,2003-05-31,"5' 11""",200,RHP/LHP,S,S,Mississippi State
+32,Kaelen,Culpepper,2002-12-29,"6' 0""",185,SS,R,R,Kansas State
+33,Caleb,Lomavita,2002-11-18,"5' 11""",200,C,R,R,California
+34,Jonathan,Santucci,2002-12-28,"6' 2""",205,LHP,L,L,Duke
+35,Wyatt,Sanford,2005-11-24,"6' 1""",175,SS,L,R,High School
+36,David,Shields,2006-09-09,"6' 2""",210,LHP,S,L,High School
+37,Braylon,Doughty,2005-12-07,"6' 1""",196,RHP,R,R,High School
+38,Joey,Oakie,2006-05-09,"6' 3""",200,RHP,R,R,High School
+39,Ryan,Waldschmidt,2002-10-07,"6' 2""",205,OF,R,R,Kentucky
+40,Carter,Johnson,2006-02-22,"6' 2""",180,SS,L,R,High School
+41,Griff,OFerrall,2003-02-02,"6' 1""",195,SS,R,R,Virginia
+42,Jacob,Cozart,2003-01-09,"6' 3""",222,C,L,R,North Carolina State
+43,Ryan,Johnson,2002-08-05,"6' 6""",215,RHP,S,R,Dallas Baptist
+44,Bryce,Cunningham,2002-12-20,"6' 5""",230,RHP,R,R,Vanderbilt
+45,Ben,Hess,2002-09-03,"6' 5""",255,RHP,R,R,Alabama
+46,Tyson,Lewis,2006-01-10,"6' 2""",195,SS,L,R,High School
+47,Dante,Nori,2004-10-07,"5' 10""",190,OF,L,L,High School
+48,Luke,Holman,2003-01-06,"6' 4""",201,RHP,R,R,Louisiana State
+49,Boston,Bateman,2005-09-20,"6' 8""",240,LHP,R,L,High School
+50,Dasan,Hill,2005-12-25,"6' 5""",165,LHP,R,L,High School
+51,Levi,Sterling,2006-09-02,"6' 5""",202,RHP,R,R,High School
+52,Braylon,Payne,2006-08-14,"6' 2""",186,OF,L,L,High School
+53,Kevin,Bazzell,2003-03-29,"6' 1""",205,C,R,R,Texas Tech
+54,Chris,Levonas,2006-02-11,"6' 2""",170,RHP,R,R,High School
+55,Mike,Sirota,2003-06-16,"6' 3""",188,OF,R,R,Northeastern
+56,Bryce,Meccage,2006-03-21,"6' 4""",210,RHP,R,R,High School
+57,PJ,Morlando,2005-05-16,"6' 3""",198,OF,L,R,High School
+58,Jared,Thomas,2003-07-01,"6' 2""",190,1B/OF,L,L,Texas
+59,Ryan,Prager,2002-10-26,"6' 3""",200,LHP,L,L,Texas A&M
+60,Gage,Jump,2003-04-12,"6' 0""",197,LHP,L,L,Louisiana State
+61,Carter,Holton,2002-09-04,"5' 11""",191,LHP,L,L,Vanderbilt
+62,Josh,Hartle,2003-03-24,"6' 5""",210,LHP,L,L,Wake Forest
+63,Drew,Beam,2003-02-14,"6' 4""",208,RHP,R,R,Tennessee
+64,Blake,Burke,2003-06-11,"6' 3""",236,1B,L,L,Tennessee
+65,Kavares,Tears,2002-08-25,"6' 0""",200,OF,L,L,Tennessee
+66,Kyle,DeBarge,2003-07-15,"5' 9""",175,SS,R,R,Louisiana-Lafayette
+67,Caleb,Bonemer,2005-10-05,"6' 1""",195,SS/3B,R,R,High School
+68,Tristan,Smith,2003-05-25,"6' 2""",195,LHP,R,L,Clemson
+69,Owen,Hall,2005-11-14,"6' 3""",185,RHP,R,R,High School
+70,Luke,Dickerson,2005-08-09,"5' 11""",197,SS,R,R,High School
+71,Gage,Miller,2003-03-01,"6' 0""",200,3B,R,R,Alabama
+72,Dylan,Dreiling,2003-04-17,"5' 11""",197,OF,L,L,Tennessee
+73,Garrett,Shull,2005-07-14,"6' 1""",205,OF,S,R,High School
+74,Peyton,Stovall,2003-02-14,"5' 11""",200,2B,L,R,Arkansas
+75,Ethan,Anderson,2003-09-21,"6' 2""",215,C/1B,S,R,Virginia
+76,Duncan,Marsten,2005-05-30,"6' 3""",215,RHP,R,R,High School
+77,Carson,Wiggins,2005-06-01,"6' 5""",210,RHP,R,R,High School
+78,Tyson,Neighbors,2002-10-09,"6' 2""",220,RHP,R,R,Kansas State
+79,Chase,Mobley,2006-06-05,"6' 5""",205,RHP,R,R,High School
+80,Griffin,Burkholder,2005-08-30,"6' 2""",195,OF,R,R,High School
+81,Tyler,Bell,2005-06-30,"6' 1""",180,SS,S,R,High School
+82,Aiden,May,2003-04-22,"6' 2""",196,RHP,R,R,Oregon State
+83,Cole,Mathis,2003-07-25,"6' 1""",210,1B,R,R,College of Charleston
+84,Anson,Seibert,2005-07-20,"6' 8""",235,RHP,L,R,High School
+85,Ryan,Forcucci,2002-12-02,"6' 3""",205,RHP,R,R,UC San Diego
+86,Payton,Tolle,2002-11-01,"6' 6""",250,LHP,L,L,Texas Christian
+87,Khal,Stephen,2002-12-21,"6' 4""",215,RHP,R,R,Mississippi State
+88,Gage,Ziehl,2003-05-15,"6' 0""",223,RHP,R,R,Miami
+89,Daniel,Eagen,2002-11-23,"6' 4""",205,RHP,R,R,Presbyterian
+90,JD,Dix,2005-10-12,"6' 2""",180,SS,S,R,High School
+91,Dax,Whitney,2006-01-17,"6' 5""",193,RHP,R,R,High School
+92,Noah,Franco,2006-05-13,"6' 3""",205,LHP/OF,L,L,High School
+93,Carson,DeMartini,2002-12-27,"6' 0""",197,3B,L,R,Virginia Tech
+94,Ethan,Schiefelbein,2006-04-11,"6' 2""",180,LHP,L,L,High School
+95,Tegan,Kuhns,2005-05-25,"6' 4""",181,RHP,S,R,High School
+96,Mason,Russell,2006-04-06,"6' 2""",185,LHP,S,L,High School
+97,Jackson,Barberi,2006-09-06,"6' 4""",185,RHP,R,R,High School
+98,Mason,Brassfield,2005-08-20,"6' 3""",195,LHP,L,L,High School
+99,Conrad,Cason,2006-08-07,"6' 1""",190,RHP,R,R,High School
+100,Chris,Cortez,2002-10-06,"6' 1""",205,RHP,R,R,Texas A&M
+101,Connor,Gatwood,2005-10-14,"6' 5""",208,RHP,R,R,High School
+102,Blake,Larson,2006-02-17,"6' 2""",180,LHP,L,L,High School
+103,Tomas,Valincius,2005-09-11,"6' 2""",210,LHP,L,L,High School
+104,Cole,Messina,2003-05-14,"6' 0""",230,,R,R,South Carolina
+105,Josh,Kuroda-Grauer,2003-01-31,"6' 0""",190,SS,R,R,Rutgers
+106,Matt,Ager,2003-05-21,"6' 6""",225,RHP,R,R,UC Santa Barbara
+107,Michael,Massey,2003-04-05,"6' 5""",230,RHP,R,R,Wake Forest
+108,William,Kirk,2005-09-29,"6' 3""",180,LHP,L,L,High School
+109,Sawyer,Farr,2005-06-30,"6' 5""",195,OF,S,R,High School
+110,Ty,Southisene,2005-07-08,"5' 9""",170,SS,R,R,High School
+111,Rustan,Rigdon,2005-11-29,"6' 0""",175,SS,S,R,High School
+112,Thatcher,Hurd,2002-12-09,"6' 4""",230,RHP,R,R,Louisiana State
+113,Cade,Arrambide,2005-10-14,"6' 2""",210,C,R,R,High School
+114,Connor,Foley,2003-07-14,"6' 5""",235,RHP,R,R,Indiana
+115,Jalin,Flores,2003-07-31,"6' 2""",210,,R,R,Texas
+116,Owen,Paino,2005-12-30,"6' 3""",200,SS,L,R,High School
+117,Derek,Curiel,2005-05-24,"6' 2""",183,OF,L,L,High School
+118,Cameron,Sullivan,2006-03-22,"6' 2""",200,RHP,R,R,High School
+119,Jared,Jones,2003-08-01,"6' 4""",253,1B,R,R,Louisiana State
+120,Terrence,Kiel II,2005-09-17,"6' 0""",182,OF,S,R,High School
+121,Kale,Fountain,2005-08-14,"6' 5""",225,3B,R,R,High School
+122,Jay,Abernathy,2005-09-13,"5' 10""",175,SS/2B,L,R,High School
+123,Lazaro,Collera,2005-11-07,"6' 6""",230,RHP,R,R,High School
+124,Chase,Harlan,2006-07-09,"6' 3""",205,3B,R,R,High School
+125,Trey,Gregory-Alford,2006-05-04,"6' 5""",235,RHP,R,R,High School
+126,Johnny,King,2006-07-26,"6' 3""",210,LHP,L,L,High School
+127,Harrison,Didawick,2003-06-24,"6' 4""",215,OF,L,L,Virginia
+128,John,Spikerman,2003-04-02,"6' 0""",190,OF,S,R,Oklahoma
+129,Casey,Saucke,2003-07-24,"6' 3""",210,OF,R,R,Virginia
+130,Cole,Gibler,2005-10-10,"6' 2""",210,LHP,L,L,High School
+131,Nick,McLain,2002-12-16,"5' 10""",190,OF,S,L,Arizona State
+132,Woody,Hadeen,2002-07-16,"6' 2""",195,SS,S,R,UC Irvine
+133,Austin,Overn,2003-05-10,"6' 0""",175,OF,L,R,Southern California
+134,Rodney,Green,2003-04-12,"6' 3""",190,OF,L,L,California
+135,Colby,Shelton,2002-12-06,"6' 0""",195,SS,L,R,Florida
+136,Zack,Stewart,2003-07-30,"6' 2""",220,OF,L,R,Missouri State
+137,Jackson,Kent,2003-02-10,"6' 3""",219,LHP,L,L,Arizona
+138,Anthony,Silva,2003-07-17,"6' 2""",200,SS,R,R,Texas Christian
+139,Zander,Darby,2002-11-26,"6' 3""",197,1B/3B,L,R,UC Santa Barbara
+140,Cody,Schrier,2003-03-03,"6' 1""",215,SS,R,R,UCLA
+141,Robert,Hipwell,2003-03-06,"6' 3""",220,,L,R,Santa Clara
+142,Drew,Rerick,2006-04-13,"6' 5""",230,RHP,R,R,High School
+143,Grant,Shepardson,2005-10-04,"6' 1""",195,RHP,R,R,High School
+144,Josh,Randall,2002-10-15,"6' 4""",240,RHP,R,R,San Diego
+145,Anderson,French,2005-12-30,"6' 4""",200,,L,R,High School
+146,Jakob,Wright,2003-05-30,"6' 0""",170,LHP,L,L,Cal Poly
+147,Rafe,Schlesinger,2003-01-22,"6' 3""",200,LHP,L,L,Miami
+148,Dylan,Volantis,2005-10-07,"6' 6""",200,LHP,L,L,High School
+149,Manny,Marin,2005-04-22,"6' 1""",165,,R,R,High School
+150,Cade,Townsend,2005-05-05,"6' 1""",183,RHP,R,R,High School
+151,Hunter,Carns,2005-04-06,"6' 0""",180,,R,R,High School
+152,DMarion,Terrell,2006-02-10,"6' 3""",212,OF,L,L,High School
+153,Sawyer,Strosnider,2005-06-26,"6' 2""",185,OF,L,L,High School
+154,Trey,Snyder,2005-09-21,"6' 1""",197,SS/3B,R,R,High School
+155,Brendan,Lawson,2005-12-07,"6' 3""",205,SS/3B,L,R,High School
+156,Griffin,Herring,2003-05-07,"6' 2""",196,LHP,R,L,Louisiana State
+157,Duce,Gourson,2002-09-20,"6' 0""",200,2B,L,R,UCLA
+158,Burke-Lee,Mabeus,2005-06-08,"6' 3""",210,C,S,R,High School
+159,Joshua,Whritenour,2005-12-08,"6' 2""",200,RHP,L,R,High School
+160,Charlie,Bates,2005-10-05,"6' 1""",190,SS,L,R,High School
+161,Michael,Torres,2006-02-15,"5' 11""",175,OF,L,L,High School
+162,Khadim,Diaw,2003-08-23,"6' 1""",215,C/OF,R,R,Loyola Marymount
+163,Jackson,Wentworth,2002-08-08,"6' 1""",210,RHP,R,R,Kansas State
+164,Nate,Dohm,2003-01-09,"6' 4""",210,RHP,R,R,Mississippi State
+165,Nick,Brink,2001-09-27,"6' 2""",210,RHP,R,R,Portland
+166,Dane,Moehler,2005-09-23,"6' 3""",185,RHP,R,R,High School
+167,Myles,Bailey,2005-07-07,"6' 4""",235,1B/3B,L,R,High School
+168,Aiden,Harris,2006-09-29,"6' 4""",240,3B,R,R,High School
+169,Zach,Swanson,2005-09-12,"6' 3""",195,RHP,R,R,High School
+170,Payton,Green,2003-01-17,"6' 3""",192,SS,R,R,Georgia Tech
+171,Corey,Collins,2001-10-10,"6' 3""",236,1B,L,R,Georgia
+172,Casey,Cook,2002-10-02,"6' 0""",195,OF,L,R,North Carolina
+173,Josh,Caron,2003-08-03,"6' 0""",215,C,R,R,Nebraska
+174,Hunter,Hines,2002-11-02,"6' 3""",210,1B,L,R,Mississippi State
+175,Ryan,Stafford,2003-01-15,"5' 10""",180,C,R,R,Cal Poly
+176,Ryan,Campos,2002-10-16,"5' 8""",190,C,L,R,Arizona State
+177,Brandon,Clarke,2003-04-10,"6' 4""",220,LHP,L,L,State College of Florida
+178,Travis,Smith,2002-11-09,"6' 4""",220,RHP,R,R,Kentucky
+179,Konner,Eaton,2002-10-30,"6' 3""",210,LHP,R,L,George Mason
+180,Brady,Tygart,2003-01-12,"6' 2""",215,RHP,R,R,Arkansas
+181,Kyle,Robinson,2003-07-17,"6' 6""",210,RHP,R,R,Texas Tech
+182,Erik,Parker,2006-05-09,"6' 3""",188,,R,R,High School
+183,Sam,Stuhr,2002-08-08,"6' 1""",195,RHP,R,R,Portland
+184,Luke,Sinnard,2002-10-21,"6' 8""",250,RHP,R,R,Indiana
+185,Émilien,Pitre,2002-10-04,"5' 11""",185,2B,L,R,Kentucky
+186,Jace,Souza,2005-10-31,"6' 1""",180,OF,L,L,High School
+187,Adam,Haight,2006-05-26,"6' 2""",175,,R,R,High School
+188,Jonathan,Vastine,2002-10-17,"5' 11""",166,SS,L,R,Vanderbilt
+189,Derek,Bender,2003-01-09,"6' 1""",235,1B/C,R,R,Coastal Carolina
+190,Jason,Flores,2006-02-07,"6' 2""",210,RHP,R,R,High School
+191,Cade,OLeary,2005-11-18,"6' 4""",200,RHP,R,R,High School
+192,Bridger,Holmes,2002-08-27,"6' 4""",218,RHP,R,R,Oregon State
+193,Brandon,Neely,2003-07-08,"6' 3""",210,RHP,R,R,Florida
+194,Ivan,Brethowr,2003-02-27,"6' 6""",250,OF,R,R,UC Santa Barbara
+195,Luke,Jewett,2002-11-16,"6' 4""",225,RHP,R,R,UCLA
+196,Nick,Montgomery,2005-11-07,"6' 4""",210,C,R,R,High School
+197,Matt,Conte,2005-01-21,"6' 1""",210,C,R,R,High School
+198,Ian,Fernandez,2005-10-24,"6' 2""",195,C,R,R,High School
+199,Dub,Gleed,2002-09-01,"6' 1""",200,3B,R,R,UC Irvine
+200,Jeremiah,Jenkins,2003-05-05,"6' 4""",238,1B,L,L,Maine
